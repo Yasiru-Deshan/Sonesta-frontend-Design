@@ -1,0 +1,48 @@
+.offerCardContainer{
+    
+    display: grid;
+    grid: auto / auto auto auto;
+    grid-gap: 30px;
+    padding: 10px;
+}
+
+.offerCard{
+    text-align: center;
+    padding:  0;
+    background-color: white;
+    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+}
+
+.offerImg{
+    width: 100%;
+}
+
+.offerTitle{
+    margin-inline: 20px;
+}
+
+.offerPrice{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.offerDescription{
+    margin-inline: 40px;
+}
+
+.offerButton{
+        width: 200px;
+        height: 60px;
+        font-size: medium;
+        background-color: white;
+        border-radius: 4px;
+        color: blueviolet;
+        border: 1px solid blueviolet;
+        margin-bottom: 20px;
+}
+
+.offerButton:hover{
+    cursor: pointer;
+    color: white;
+    background-color: blueviolet;
+}
